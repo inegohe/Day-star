@@ -34,5 +34,6 @@ form.addEventListener('submit', (e) => {
     }else{
         console.log('please fill ou the names section')
     }
+    localStorage.setItem('dayStarData',JSON.stringify(data));
     window.location.replace('../dashboard/admin-dashboard.html');
 })
