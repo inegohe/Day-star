@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row border-bottom">
+            <div class="col text-center">
+                <h1 class="display-2">Baby Database</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="row head body">
+                    <div class="col-1">No</div><div class="col-6">Full Names</div><div class="col-4">Age</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Parent details</h6>
+                    <p class="ms-3">Parent Names:<span class="parent"></span></p>
+                <p class="ms-3">Contact:<span class="parent"></span></p>
+                <p class="ms-3">Address:<span class="parent"></span></p>
+                <p class="ms-3">Occupation:<span class="parent"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

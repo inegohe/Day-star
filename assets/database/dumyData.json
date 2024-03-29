@@ -1,0 +1,202 @@
+{
+    "staff": [
+        {
+            "id": "001",
+            "firstName": "Evelyn",
+            "lastName": "Nakintu",
+            "dateOfBirth": "19/08/2002",
+            "age": "",
+            "educationBg": "UACE",
+            "address": "Nansana",
+            "contact": "0774678230",
+            "nextOfKin": "Kizito Kenneth",
+            "nextOfKinRelationship": "brother",
+            "nextOfKinContact": "0784532111"
+        },
+        {
+            "id": "002",
+            "firstName": "Davis",
+            "lastName": "Kibalu",
+            "dateOfBirth": "09/10/2000",
+            "age": "",
+            "educationBg": "UACE",
+            "address": "Bwaise",
+            "contact": "0774483230",
+            "nextOfKin": "Nambalilwa Mildred",
+            "nextOfKinRelationship": "Mother",
+            "nextOfKinContact": "0784987611"
+        },
+        {
+            "id": "003",
+            "firstName": "Catherine",
+            "lastName": "Nanteza",
+            "dateOfBirth": "20/02/1999",
+            "age": "",
+            "educationBg": "Undergrad Certificate",
+            "address": "Entebe",
+            "contact": "0774655530",
+            "nextOfKin": "Kisakye Mable",
+            "nextOfKinRelationship": "sister",
+            "nextOfKinContact": "0788621111"
+        },
+        {
+            "id": "004",
+            "firstName": "Doreen",
+            "lastName": "Nakazi",
+            "dateOfBirth": "04/05/1998",
+            "age": "",
+            "educationBg": "UACE",
+            "address": "Nalukolongo",
+            "contact": "077463490",
+            "nextOfKin": "Kawalya Timothy",
+            "nextOfKinRelationship": "husband",
+            "nextOfKinContact": "0783874511"
+        }
+    ],
+    "admin": [
+        {
+            "id": "001",
+            "firstName": "Thomas",
+            "lastName": "Sekawalya",
+            "dataOfBirth": "20/04/2000",
+            "age": "",
+            "address": "Kibuye",
+            "designation": "Bursar",
+            "contact": "0773846129"
+        },
+        {
+            "id": "002",
+            "firstName": "Jimmy",
+            "lastName": "Kibuuka",
+            "dataOfBirth": "22/01/2001",
+            "age": "",
+            "address": "Katwe",
+            "designation": "Director of studies",
+            "contact": "0773810299"
+        },
+        {
+            "id": "003",
+            "firstName": "Joshua",
+            "lastName": "Senkabilwa",
+            "dataOfBirth": "27/05/1999",
+            "age": "",
+            "address": "Mukono",
+            "designation": "Head Master",
+            "contact": "0729876129"
+        },
+        {
+            "id": "004",
+            "firstName": "Juliet",
+            "lastName": "Nanyonjo",
+            "dataOfBirth": "15/09/2000",
+            "age": "",
+            "address": "Wandegeya",
+            "designation": "Deputy Head Mistress",
+            "contact": "0798536129"
+        }
+    ],
+    "baby": [
+        {
+            "firstName": "Harsley",
+            "lastName": "Babirye",
+            "dataOfBirth": "12/04/2023",
+            "age": "",
+            "parent": [
+                {
+                    "firstName": "Godfrey",
+                    "lastName": "Odong",
+                    "contact": "0784536982",
+                    "address": "Nabweru",
+                    "occupation": "BuisnessMan"
+                },
+                {
+                    "firstName": "Tina",
+                    "lastName": "Nabwire",
+                    "contact": "07888456982",
+                    "address": "Nabweru",
+                    "occupation": "Teacher"
+                }
+            ]
+        },
+        {
+            "firstName": "Ciggy",
+            "lastName": "Nakito",
+            "dataOfBirth": "10/08/2023",
+            "age": "",
+            "parent": [
+                {
+                    "firstName": "Kevin",
+                    "lastName": "Sekito",
+                    "contact": "0781234982",
+                    "address": "Nakaseke",
+                    "occupation": "Farmer"
+                },
+                {
+                    "firstName": "Sylivia",
+                    "lastName": "Nandawula",
+                    "contact": "07888983282",
+                    "address": "Nakaseke",
+                    "occupation": "Buisness Woman"
+                }
+            ]
+        },
+        {
+            "firstName": "Hanington",
+            "lastName": "Kalyoowa",
+            "dataOfBirth": "05/11/2022",
+            "age": "",
+            "parent": [
+                {
+                    "firstName": "Steven",
+                    "lastName": "Ofoyrwoth",
+                    "contact": "0784537582",
+                    "address": "Ssembabule",
+                    "occupation": "Engineer"
+                },
+                {
+                    "firstName": "Rose",
+                    "lastName": "Asimwe",
+                    "contact": "0783806982",
+                    "address": "Ssembabule",
+                    "occupation": "Social worker"
+                }
+            ]
+        }
+    ],
+    "login": {
+        "admin": [
+            {
+                "id": "001",
+                "username": "tommy784",
+                "pwd": "12345"
+            },
+            {
+                "id": "002",
+                "username": "kimby879",
+                "pwd": "12345"
+            },
+            {
+                "id": "003",
+                "username": "jomby404",
+                "pwd": "12345"
+            }
+        ],
+        "staff": [
+            {
+                "id": "001",
+                "username": "redevy256",
+                "pwd": "12345"
+            },
+            {
+                "id": "002",
+                "username": "dav553",
+                "pwd": "12345"
+            },
+            {
+                "id": "003",
+                "username": "cathy791",
+                "pwd": "12345"
+            }
+        ]
+    }
+}

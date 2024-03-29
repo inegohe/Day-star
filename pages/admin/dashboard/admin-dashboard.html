@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5 mb-4">
+            <div class="col text-center">
+                <h1 class="display-1">Admin Dashboard</h1>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">Baby Stats</h4>
+                        <div>
+                            <p class="card-text">registered: </p>
+                            <div class="registered"></div>
+                        </div>
+                        <div>
+                            <p class="card-text">present: </p>
+                        </div>
+                        <div>
+                            <p class="card-text">absent</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-primary" href="../../babies/babies.html" >Go to database</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">Baby Sitter Stats</h4>
+                        <div>
+                            <p class="card-text">Number of sitters: </p>
+                            <div class="sitters"></div>
+                        </div>
+                        <div>
+                            <p class="card-text">Sitters present: </p>
+                        </div>
+                        <div>
+                            <p class="card-text">Sitters absent:</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-primary" href="../../sitters/sitters.html">Go to database</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">Latest Events</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">Actions</h4>
+                        <form>
+                            <label class="form-label">Enroll New Baby</label>
+                            <a class="btn btn-primary form-control" href="../forms/New-baby-form.html">Enroll</a>
+                        </form>
+                        <form>
+                            <label class="form-label">Enroll New Sitter</label>
+                            <a class="btn btn-primary form-control" href="../forms/New-sitter-form.html">Enroll</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="../../../assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
